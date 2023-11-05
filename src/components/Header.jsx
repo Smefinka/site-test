@@ -1,6 +1,6 @@
+import HeaderH1 from "./HeaderH1";
 function Header(){
  return (<>
- <h1>Header</h1>
 <div id="sticky-wrapper" className="sticky-wrapper" style={{height: '78px'}}><nav className="navbar navbar-expand-lg" style={{width: '1440px'}}>
                 <div className="container">
                     <a className="navbar-brand" href="">
@@ -55,7 +55,7 @@ function Header(){
                     </div>
                 </div>
             </nav></div>
-   
+   <HeaderH1></HeaderH1>
 </>)
 }
 
